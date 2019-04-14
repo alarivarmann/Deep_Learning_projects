@@ -1,0 +1,8 @@
+name: machinelearning
+channels:
+- defaults
+dependencies:        
+- pandas==0.24.2
+- numpy==1.16.2
+- scikit-learn==0.20.3
+- matplotlib==3.0.3
