@@ -12,4 +12,4 @@ To initialize the package, do the following:
 
 - python main.py --packagepath package_folder
 
-where package folder stands for where the package is located
+where package folder stands for where the package is located. If you don't add --packagepath argument in the command line call, then the default argument: C:/demo will be used for tha package, so in this case, please place the files into this folder.
