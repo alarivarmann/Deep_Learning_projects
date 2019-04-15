@@ -6,8 +6,6 @@ Created on Sun Apr 14 15:55:17 2019
 """
 import argparse
 import sys
-sys.path.append('C:/demo/')
-from kmeans_ import Kmeans
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.image import imread
@@ -107,13 +105,18 @@ if __name__ == '__main__':
     To pass your custom data folder, use the --path argument, specify the data folder manually
     """
     parser = argparse.ArgumentParser(description='Add K-Means parameters')
-    parser.add_argument('--path', type=str,help='string specifying the package folder')
+    parser.add_argument('--packagepath',type=str,help='string specifying the package path')
     args = parser.parse_args()
-    if args.path is None:
-        path = 'C:/demo/data/OldFaithful.csv'
+    
+    if args.packagepath is None:
+        packagepath = "C:/demo"
     else :
-        path = f"{args.path}/OldFaithful.csv"
-    output_dict = read_normalize_and_fit_visualize(path=path)
+        packagepath = f"{args.packagepath}" 
+    
+    datapath = f"{packagepath}/data/OldFaithful.csv"
+    sys.path.append(packagepath)
+    from kmeans_ import Kmeans
+    output_dict = read_normalize_and_fit_visualize(path=datapath)
     ############# lets run 10 ITERATIONS OF KMEANS TO SEE WHAT IS GOING ON ##########
     plot_first_9_iterations()
    
