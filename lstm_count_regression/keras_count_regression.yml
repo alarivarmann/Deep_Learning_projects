@@ -1,0 +1,20 @@
+
+name: count_regression
+channels:
+    - conda-forge
+    - anaconda
+    - auto
+dependencies:      
+- python==3.6.3
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- tensorflow
+- jupyter_client 
+- jupyter_core 
+- notebook 
+- jupyter_contrib_nbextensions
+- jupyter_nbextensions_configurator
+
+
