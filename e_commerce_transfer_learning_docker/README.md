@@ -136,18 +136,6 @@ The 6-textual feature model has achieved performance of **97.6% validation accur
 3. Read the execution logs in the logs folder to see how the program ran.
 
 
-# DATA 
-
-## ML Splits Used in Model 1:
-[Link](https://filedn.com/lK1VhM9GbBxVlERr9KFjD4B/ecommerce/data_on_public/full/ml_splits_1.pkl)
-
-## Raw data:
-[Link](https://my.pcloud.com/publink/show?code=XZVdRQkZpu8VlHPg02m1JfmF6GPiiHht9eFV)
-
-## Full ML Splits:
-[Link](https://filedn.com/lK1VhM9GbBxVlERr9KFjD4B/ecommerce/ulmfit_final_files/data/full_splits.pkl)
-
-
 ### Using Virtual Environment Notebook (Fast.AI + Jupyter Notebook) : Conda or PIP 
 `conda create -n <chosen_env_name> --file requirements.txt`
 
