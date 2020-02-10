@@ -1,11 +1,11 @@
 
-
-
 # Brain Tumor Segmentation Task
 In this project, an advanced Tumor Segmentation model will be trarained that will perform tumor segmentation. 
 
 
 [![See the solution in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1958taPIeK8fRaMw1MG3Wa0XaxeuK1pST)
+
+
 Automatic brain tumor segmentation from magnetic resonance imaging (MRI) scans would be of great help assisting or completely replacing labor-intensive and resource-expensive manual segmentation by neurologists. However, the task is challenging due to variability in location, shape and appearance of tumors between patients. Additionally, MRI images vary greatly when obtained with different scanners.
  
 We will be implementing and training segmentation model based on [U-Net architecture](https://arxiv.org/abs/1505.04597).
