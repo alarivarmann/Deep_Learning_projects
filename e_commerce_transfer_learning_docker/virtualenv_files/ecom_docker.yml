@@ -1,0 +1,13 @@
+# -keras-gpu installs also tensorflow-gpu
+
+name: ecom_docker
+channels:
+    - conda-forge
+    - pytorch
+    - fastai
+    - anaconda
+dependencies:      
+- python==3.6.3
+- torchvision-cpu
+- fastai
+- scikit-learn

@@ -1,0 +1,21 @@
+# RUN jupyter nbextensions_configurator enable --user 
+# jupyter nbextension enable toc2/main
+name: ts_brain
+channels:
+    - conda-forge
+dependencies:
+- python=3.6.3
+- jupyter_nbextensions_configurator
+- jupyter_contrib_nbextensions
+- jupyterthemes
+- pip
+- pip:
+  - jupyter
+  - keras==2.2.5 
+  - nibabel==2.3.3 
+  - numpy==1.17.5 
+  - matplotlib==3.1.2 
+  - tensorflow-gpu==1.15.0
+  -
+
+
