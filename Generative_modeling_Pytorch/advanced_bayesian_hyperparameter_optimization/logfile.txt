@@ -1,0 +1,16 @@
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 
+INFO (hyperopt.mongoexp): job exception: 'FMinIter_Domain'

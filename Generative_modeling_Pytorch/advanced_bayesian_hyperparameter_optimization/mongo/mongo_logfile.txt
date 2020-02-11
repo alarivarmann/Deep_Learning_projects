@@ -1,0 +1,63 @@
+2019-12-15T15:49:53.306+0200 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-12-15T15:49:53.311+0200 I CONTROL  [initandlisten] MongoDB starting : pid=9337 port=1234 dbpath=./mongo 64-bit host=alaridl-MS-7A38
+2019-12-15T15:49:53.311+0200 I CONTROL  [initandlisten] db version v4.0.3
+2019-12-15T15:49:53.312+0200 I CONTROL  [initandlisten] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
+2019-12-15T15:49:53.312+0200 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1d  10 Sep 2019
+2019-12-15T15:49:53.313+0200 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-12-15T15:49:53.313+0200 I CONTROL  [initandlisten] modules: none
+2019-12-15T15:49:53.314+0200 I CONTROL  [initandlisten] build environment:
+2019-12-15T15:49:53.314+0200 I CONTROL  [initandlisten]     distarch: x86_64
+2019-12-15T15:49:53.315+0200 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-12-15T15:49:53.315+0200 I CONTROL  [initandlisten] options: { net: { port: 1234 }, storage: { dbPath: "./mongo" }, systemLog: { quiet: true } }
+2019-12-15T15:49:53.317+0200 W STORAGE  [initandlisten] Detected unclean shutdown - ./mongo/mongod.lock is not empty.
+2019-12-15T15:49:53.320+0200 I STORAGE  [initandlisten] Detected data files in ./mongo created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-12-15T15:49:53.322+0200 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2019-12-15T15:49:53.323+0200 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=15575M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-12-15T15:50:05.472+0200 I STORAGE  [initandlisten] WiredTiger message [1576417805:472850][9337:0x7f83557d99c0], txn-recover: Main recovery loop: starting at 3/2904960
+2019-12-15T15:50:05.488+0200 I STORAGE  [initandlisten] WiredTiger message [1576417805:488199][9337:0x7f83557d99c0], txn-recover: Recovering log 3 through 4
+2019-12-15T15:50:05.863+0200 I STORAGE  [initandlisten] WiredTiger message [1576417805:863574][9337:0x7f83557d99c0], file:sizeStorer.wt, txn-recover: Recovering log 4 through 4
+2019-12-15T15:50:05.890+0200 I STORAGE  [initandlisten] WiredTiger message [1576417805:890462][9337:0x7f83557d99c0], file:sizeStorer.wt, txn-recover: Set global recovery timestamp: 0
+2019-12-15T15:50:05.982+0200 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2019-12-15T15:50:06.101+0200 I CONTROL  [initandlisten] 
+2019-12-15T15:50:06.102+0200 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-12-15T15:50:06.103+0200 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-12-15T15:50:06.104+0200 I CONTROL  [initandlisten] 
+2019-12-15T15:50:06.105+0200 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2019-12-15T15:50:06.107+0200 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2019-12-15T15:50:06.108+0200 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2019-12-15T15:50:06.109+0200 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2019-12-15T15:50:06.110+0200 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2019-12-15T15:50:06.110+0200 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2019-12-15T15:50:06.111+0200 I CONTROL  [initandlisten] 
+2019-12-15T15:50:06.113+0200 W CONTROL  [initandlisten] 
+2019-12-15T15:50:06.114+0200 W CONTROL  [initandlisten] 
+2019-12-15T15:50:06.115+0200 I CONTROL  [initandlisten] 
+2019-12-15T15:50:06.218+0200 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory './mongo/diagnostic.data'
+2019-12-15T15:50:06.220+0200 I NETWORK  [initandlisten] waiting for connections on port 1234
+2019-12-15T15:50:07.021+0200 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2019-12-15T15:50:08.803+0200 I NETWORK  [conn1] received client metadata from 127.0.0.1:35722 conn1: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "5.0.0-050000rc1-lowlatency" }, platform: "CPython 3.7.3.final.0" }
+2019-12-15T15:50:11.190+0200 I NETWORK  [conn1] end connection 127.0.0.1:35722 (0 connections now open)
+2019-12-15T15:51:49.177+0200 I NETWORK  [conn2] received client metadata from 127.0.0.1:35784 conn2: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "5.0.0-050000rc1-lowlatency" }, platform: "CPython 3.7.3.final.0" }
+2019-12-15T15:51:49.180+0200 I NETWORK  [conn3] received client metadata from 127.0.0.1:35786 conn3: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "5.0.0-050000rc1-lowlatency" }, platform: "CPython 3.7.3.final.0" }
+2019-12-15T15:51:49.182+0200 I NETWORK  [conn3] end connection 127.0.0.1:35786 (0 connections now open)
+2019-12-15T15:51:49.182+0200 I NETWORK  [conn2] end connection 127.0.0.1:35784 (1 connection now open)
+2019-12-15T15:51:50.846+0200 I NETWORK  [conn4] received client metadata from 127.0.0.1:35788 conn4: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "5.0.0-050000rc1-lowlatency" }, platform: "CPython 3.7.3.final.0" }
+2019-12-15T15:51:50.848+0200 I NETWORK  [conn5] received client metadata from 127.0.0.1:35790 conn5: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "5.0.0-050000rc1-lowlatency" }, platform: "CPython 3.7.3.final.0" }
+2019-12-15T15:51:50.956+0200 I NETWORK  [conn6] received client metadata from 127.0.0.1:35792 conn6: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "5.0.0-050000rc1-lowlatency" }, platform: "CPython 3.7.3.final.0" }
+2019-12-15T15:51:50.958+0200 I NETWORK  [conn7] received client metadata from 127.0.0.1:35794 conn7: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "5.0.0-050000rc1-lowlatency" }, platform: "CPython 3.7.3.final.0" }
+2019-12-15T15:51:51.458+0200 I NETWORK  [conn6] end connection 127.0.0.1:35792 (3 connections now open)
+2019-12-15T15:51:51.458+0200 I NETWORK  [conn7] end connection 127.0.0.1:35794 (2 connections now open)
+2019-12-15T15:57:01.153+0200 I NETWORK  [conn5] end connection 127.0.0.1:35790 (1 connection now open)
+2019-12-15T15:57:01.153+0200 I NETWORK  [conn4] end connection 127.0.0.1:35788 (0 connections now open)
+2019-12-15T16:17:05.006+0200 I NETWORK  [conn8] received client metadata from 127.0.0.1:36180 conn8: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "5.0.0-050000rc1-lowlatency" }, platform: "CPython 3.7.3.final.0" }
+2019-12-15T16:17:05.009+0200 I NETWORK  [conn9] received client metadata from 127.0.0.1:36182 conn9: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "5.0.0-050000rc1-lowlatency" }, platform: "CPython 3.7.3.final.0" }
+2019-12-15T16:17:05.012+0200 I NETWORK  [conn9] end connection 127.0.0.1:36182 (1 connection now open)
+2019-12-15T16:17:05.012+0200 I NETWORK  [conn8] end connection 127.0.0.1:36180 (0 connections now open)
+2019-12-15T16:17:06.574+0200 I NETWORK  [conn10] received client metadata from 127.0.0.1:36184 conn10: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "5.0.0-050000rc1-lowlatency" }, platform: "CPython 3.7.3.final.0" }
+2019-12-15T16:17:06.575+0200 I NETWORK  [conn11] received client metadata from 127.0.0.1:36186 conn11: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "5.0.0-050000rc1-lowlatency" }, platform: "CPython 3.7.3.final.0" }
+2019-12-15T16:17:06.608+0200 I NETWORK  [conn12] received client metadata from 127.0.0.1:36188 conn12: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "5.0.0-050000rc1-lowlatency" }, platform: "CPython 3.7.3.final.0" }
+2019-12-15T16:17:06.609+0200 I NETWORK  [conn13] received client metadata from 127.0.0.1:36190 conn13: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "5.0.0-050000rc1-lowlatency" }, platform: "CPython 3.7.3.final.0" }
+2019-12-15T16:18:06.491+0200 I NETWORK  [conn13] end connection 127.0.0.1:36190 (3 connections now open)
+2019-12-15T16:18:06.491+0200 I NETWORK  [conn12] end connection 127.0.0.1:36188 (2 connections now open)
+2019-12-15T16:18:06.644+0200 I NETWORK  [conn10] end connection 127.0.0.1:36184 (1 connection now open)
+2019-12-15T16:18:06.644+0200 I NETWORK  [conn11] end connection 127.0.0.1:36186 (0 connections now open)

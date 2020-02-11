@@ -1,2 +1,3 @@
-# pytorch_variational_inference
-Variational Inference Materials on Pytorch
+## SCVI (Single Cell Variational Inference) Logical Learning Track
+![Overview how to create learning path to understanding SCVI](https://filedn.com/lK1VhM9GbBxVlERr9KFjD4B/Bayes_Public/overview.png)
+
